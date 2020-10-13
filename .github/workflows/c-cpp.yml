@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make
+    - name: make all
       run: make -C multi_makefile
            make -C simple_Makefile
       
