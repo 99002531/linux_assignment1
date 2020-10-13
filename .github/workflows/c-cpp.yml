@@ -27,4 +27,4 @@ runs-on: ubuntu-latest
 - name: make
 
  
-run: make -C linux_assignment1
+run: make -C multi_makefile
