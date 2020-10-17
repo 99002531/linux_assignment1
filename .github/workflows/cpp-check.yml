@@ -12,5 +12,5 @@ jobs:
       - name: Install cppcheck
         run: sudo apt-get -y install cppcheck
       - name: Cppcheck code
-        run: cppcheck linux_assignment1/multi_makefile/
+        run: cppcheck linux_assignment1/multi_makefile
 
