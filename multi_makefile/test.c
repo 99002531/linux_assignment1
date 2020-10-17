@@ -2,9 +2,7 @@
 #include "bitmask.h"
 #include "mystring.h"
 #include "myutils.h"
-//#include "bitmask.c"
-//#include "mystring.c"
-//#include "myutlis.c"
+
 
 char string1[45]="ngjerngj";
 char string2[]="rohith";
@@ -13,7 +11,7 @@ int main()
 {
   printf("Length of the string is %d\n",len("he is good boy"));
  printf("string comapre of %s and %s is %d\n",string1,string2,cmp(string1,string2));
-  printf("string concate of %s and %s is %s\n",string2,string3,cat(string2,string3));
+  printf("string concate is %s\n",cat(string2,string3));
   printf("string copy is %s\n",cpy(string,string1));
   printf("factorial of 5 is %d\n",factorial(5));
   printf("Number 5 is %s\n",(isprime(5)?"prime":"Not prime"));
