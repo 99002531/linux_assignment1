@@ -1,4 +1,4 @@
-include<stdio.h>
+#include<stdio.h>
 #include "bitmask.h"
 #include "mystring.h"
 #include "myutils.h"
